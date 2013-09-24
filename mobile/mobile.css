@@ -1,0 +1,46 @@
+body
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    font-family: Verdana;
+    overflow-x: hidden;
+    background-color: #99CCFF;
+    /*background-image: url('Images/bg.png');*/
+    height: 100%;
+    text-align: center;
+}
+
+div.logo
+{
+    background-color: #00659D;
+}
+
+div.menu
+{
+    background-color: #6699FF;
+    color: white;
+    font-weight: bold;
+}
+
+div.login_error
+{
+    background-color: #990000;
+    color: white;
+    font-weight: bold;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#footer_bar {
+    width: 100%;
+    /* posizionamento in fondo alla pagina */
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    background-color: #6699FF;
+    color: white;
+    font-weight: bold;
+}
